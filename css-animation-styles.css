@@ -1,0 +1,11 @@
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
+  }
+  
+  .box {
+    animation: bounce 1s ease-in-out infinite alternate;
+  }
+  .box-active-effect {
+    animation: bounce 1s ease-in-out 2 alternate;
+  }

@@ -1,0 +1,7 @@
+.demo-button{
+    background-color: #0073e6;
+    transition: background-color 0.3s ease-in-out;
+}
+.demo-button:hover{
+    background-color: #b57c00;
+}

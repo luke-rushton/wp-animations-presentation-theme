@@ -1,0 +1,155 @@
+*{
+    margin: 0rem;
+}
+
+.slide{
+	background-color: pink;
+	height: 100vh;
+}
+.slide-alt{
+    background-color: yellow;
+}
+/* header structure */
+h1{
+	height: 100vh;
+	margin: 0rem;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 6rem;
+}
+h2{
+    height: 100vh;
+    margin: 0rem;
+    text-align: center;
+	line-height: 100vh;
+	font-size: 6rem;
+}
+.top-header{
+    font-size: 4rem;
+    line-height: 6rem;
+}
+h3{
+    font-size: 4rem;
+    margin: 0rem;
+    text-align: center;
+}
+h4{
+    font-size: 3rem;
+    margin: 0rem;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.7rem;
+}
+/*other fonts and text */
+ul{
+    margin: 0;
+}
+p, li{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+/*code blocks*/
+code {
+    color: lightblue;
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+/*structure for slides with one column */
+.hierarchy{
+    position: relative;
+    background-color: pink;
+}
+.hierarchy .wp-block-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* structure for slides with two columns */
+.two-column > .wp-block-group__inner-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.column{
+ height: 100vh;
+}
+.two-column-right{
+    grid-column: 2;
+    position: relative;
+}
+.plugins .two-column-right .wp-block-group__inner-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.plugins img {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 4rem auto;
+}
+.targeting .two-column-right .wp-block-group__inner-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.targeting img {
+    display: block;
+    height: auto;
+    margin: 4rem auto;
+}
+/* structure for slides with three columns */
+.three-column > .wp-block-group__inner-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*demo area structure stylings*/
+.demo-button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2rem;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 3rem;
+}
+.box, .box-active {
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+    border-radius: 1rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.square {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: teal;
+    margin: 1rem;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+  }
+  .square:nth-child(1){
+    top: 30%;
+  }
+  .square:nth-child(2){
+    top: 40%;
+  }
+  .square:nth-child(3){
+    top: 50%;
+  }
