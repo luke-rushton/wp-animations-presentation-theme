@@ -4,7 +4,7 @@ Web Animations for WordPress Theme
 
 This a thoroughly hacky WordPress theme thrown together for my presentation at the Vancouve WordPress Developer meetup. 
 
-you can find the presentation itself here: [[https://lukerushton.com/animations-for-wordpress/]].
+you can find the presentation itself here: https://lukerushton.com/animations-for-wordpress/.
 
 This theme strips out nearly all content from page.php, other than what comes from the block editor.
 
@@ -19,6 +19,6 @@ You can use the variant slides by also applying the classes "two-column" or "thr
 "three-column" must have three sub groups.
 
 
-*WARNING*: As this was built to give a presentation, it lacks rigorous testing (or any for that matter!). Many things can go wrong
+**WARNING**: As this was built to give a presentation, it lacks rigorous testing (or any for that matter!). Many things can go wrong
 
-It's also *completely* broken on mobile devices. Maybe i'll fix that. or maybe not...
+It's also **completely** broken on mobile devices. Maybe i'll fix that. or maybe not...
